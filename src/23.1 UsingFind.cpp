@@ -15,6 +15,7 @@ int main()
                         numsInVec.cend (),   // End of range
                         numToFind);          // Element to find
 
+
    // Check if find succeeded
    if (element != numsInVec.cend ())
       cout << "Value " << *element << " found!" << endl;
